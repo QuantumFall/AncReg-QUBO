@@ -3,7 +3,7 @@
 """
 Created on Wed Dec 30 13:53:28 2020
 
-@author: fallenpao
+@author: Benjamin
 """
 
 # from qiskit import *
