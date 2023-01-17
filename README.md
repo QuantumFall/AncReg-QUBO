@@ -13,7 +13,9 @@ Using 4-body encoding, only 4 + log(64/4) = 8 qubits are needed.
 
 
 `NASGD.py` contains all the necessary functions to calculate the objective value (and more, such as computing gradients, ADAM optimizer, and classical simulations)
+
 `Multi-Ancilla ScipyOpt Jac inf mes.py` is the optimization file that uses the gradient based SLSQP and calls from `NASGD.py` to obtain the Jacobian.
+
 `Multi-Ancilla ScipyOpt inf mes.py` uses COBYLA, a gradient free method.
 
 Data collection is done in parallel and saves to a dictionary which can be loaded later and plotted.
